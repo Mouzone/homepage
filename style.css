@@ -122,6 +122,7 @@ svg {
 .bar {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 
 .bar h3 {
@@ -134,4 +135,36 @@ svg {
     margin-top: 20px;
     padding-bottom: 50px;
 }
+
+#footer {
+    background-color: teal;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+#footer .icons {
+    margin-top: 0;
+    justify-content: start;
+}
+
+#footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer > img {
+    width: 700px;
+}
+
+
 
