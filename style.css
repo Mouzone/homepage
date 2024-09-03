@@ -13,7 +13,14 @@ body {
     width: 100%;
 }
 
-#intro {
+p {
+    font-size: 20px;
+}
+
+/* ----------------------- INTRO ------------------------*/
+
+#intro,
+#footer {
     padding: 50px;
 }
 
@@ -68,9 +75,7 @@ h1 {
 
 #about p {
     margin-top: 20px;
-
     line-height: 30px;
-    font-size: 20px;
 }
 
 img#first-image {
@@ -87,6 +92,8 @@ img#first-image {
 img {
     width: 30px;
 }
+
+/* ----------------------- MAIN ------------------------*/
 
 #main {
     display: flex;
@@ -145,7 +152,7 @@ svg {
 .bar h3 {
     margin-right: auto;
     font-family: "Playfair Display";
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .description {
@@ -153,21 +160,18 @@ svg {
     padding-bottom: 50px;
 }
 
+/* ----------------------- FOOTER ------------------------*/
+
 #footer {
     background-color: teal;
     color: white;
     display: flex;
     justify-content: center;
-    padding: 50px;
     gap: 40px;
 }
 
 #footer svg {
     fill: white;
-}
-
-#footer p {
-    font-size: 20px;
 }
 
 #footer .icons {
