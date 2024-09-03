@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+/* Breakpoints: 500px -> 1000px is tablet, outer ranges are others */
 *{
     padding: 0;
     margin: 0;
@@ -14,16 +14,12 @@ body {
 }
 
 #intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-
+    padding: 70px;
 }
 
 #intro-background {
     width: 100%;
-    height: 90%;
+    height: 700px;
 
     top: 0;
     left: 0;
@@ -34,6 +30,22 @@ body {
     z-index: -1;
     transform-origin: 0;
     box-shadow: 3px 3px 6px 0 black;
+}
+
+#intro-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    transform: translate(55%);
+    font-size: 80px;
 }
 
 #about {
