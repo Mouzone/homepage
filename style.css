@@ -321,7 +321,7 @@ svg {
 
 }
 
-@media (width <= 630px) {
+@media (width <= 640px) {
     #footer {
         display: flex;
         flex-direction: column;

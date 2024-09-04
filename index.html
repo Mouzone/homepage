@@ -15,9 +15,11 @@
                             id="first-image"
                             alt="profile picture"
                             srcset="
-                                images/first-img-small.webp 1100w,
-                                images/first-img-med.webp 1500w"
-                            sizes="1000px"
+                                images/first-img-small.webp 300w,
+                                images/first-img-med.webp 450w
+                            "
+                            sizes="(min-width: 1120px) 450px, 300px"
+                            src="images/first-img-med.webp"
                     >
                     <h1 id="name"> Bob Saget </h1>
                 </div>
@@ -166,10 +168,12 @@
             <img
                 alt=""
                 srcset="
-                    images/second-img-large.webp 630w,
-                    images/second-img-small.webp 1000w,
-                    images/second-img-large.webp 1500w"
-                sizes="(max-width: 600px) 300px, (max-width: 1000px) 700px, 100vw"
+                    images/second-img-small.webp 300w,
+                    images/second-img-med.webp 500w,
+                    images/second-img-large.webp 700w
+                "
+                sizes="(min-width: 1000px) 700px, (min-width: 740px) 500px, (min-width: 680px) 300px, (min-width: 640px) calc(-2000vw + 13500px), 100vw"
+                src="images/second-img-small.webp"
             >
         </div>
     </body>
