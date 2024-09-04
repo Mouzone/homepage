@@ -150,6 +150,7 @@ img {
         float: left;
         left: 120px;
         margin-right: 20px;
+        margin-bottom: -5px;
     }
 
     #first-image {
