@@ -55,7 +55,7 @@ p {
     bottom: 0;
     left: 0;
     font-size: 80px;
-    margin-top: -120px;
+    margin-top: -90px;
 }
 
 #about {
@@ -74,10 +74,6 @@ h1 {
 #about p {
     margin-top: 20px;
     line-height: 30px;
-}
-
-#first-image {
-    width: 450px;
 }
 
 .icons {
@@ -109,10 +105,6 @@ h1 {
 
     #not-text {
         display: flex;
-    }
-
-    #first-image {
-        width: 300px;
     }
 
     #name {
@@ -157,11 +149,6 @@ h1 {
         left: 120px;
         margin-right: 20px;
         margin-bottom: -5px;
-    }
-
-    #first-image {
-        /* todo: remove this and use srcset function with cropping*/
-        width: 300px;
     }
 
     #name {
@@ -239,6 +226,9 @@ svg {
     font-size: 30px;
 }
 
+.bar img {
+    width: 30px;
+}
 .description {
     margin-top: 20px;
     padding-bottom: 50px;

@@ -11,7 +11,14 @@
             <div id="intro-background"></div>
             <div id="intro-content">
                 <div id="not-text">
-                    <img id="first-image" src="images/first-img.jpg" alt="dne">
+                    <img
+                            id="first-image"
+                            alt="profile picture"
+                            srcset="
+                                images/first-img-small.jpg 1100w,
+                                images/first-img-med.jpg 1500w"
+                            sizes="1000px"
+                    >
                     <h1 id="name"> Bob Saget </h1>
                 </div>
                 <div id="about">
@@ -156,7 +163,7 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
                 </div>
             </div>
-            <img src="images/second-img.jpg" alt="">
+            <img src="images/second-img-med.jpg" alt="">
         </div>
     </body>
 </html>
