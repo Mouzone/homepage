@@ -103,6 +103,10 @@ img {
         height: 400px;
     }
 
+    #intro {
+        padding: 30px;
+    }
+
     #not-text {
         display: flex;
     }
@@ -119,7 +123,9 @@ img {
     #about {
         box-shadow: none;
         width: 100%;
-        margin-top: 20px;
+        margin: 20px 0 20px 0;
+        padding: 0;
+        text-align: center;
     }
 
     #about h1 {
@@ -227,7 +233,7 @@ svg {
     gap: 20px;
 }
 
-.bar h3 {
+.bar h2 {
     margin-right: auto;
     font-family: "Playfair Display";
     font-size: 30px;
@@ -261,7 +267,7 @@ svg {
     .bar {
         gap: 10px;
     }
-    .bar h3 {
+    .bar h2 {
         font-size: 20px;
     }
 }
