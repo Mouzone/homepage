@@ -205,13 +205,13 @@ svg {
 
     font-family: "Playfair Display";
     font-size: 50px;
-    color: white
+    color: #222;
 }
 
 .text {
     width: 370px;
     padding: 20px;
-    color: gray;
+    color: #585858;
 }
 
 .bar {
@@ -221,6 +221,7 @@ svg {
 }
 
 .bar h2 {
+    color: #585858;
     margin-right: auto;
     font-family: "Playfair Display";
     font-size: 30px;
