@@ -121,7 +121,7 @@ img {
     #name {
         position: absolute;
         font-size: 50px;
-        transform: translate(360px, -560px);
+        transform: translate(360px, -500px);
     }
 
     #about {
