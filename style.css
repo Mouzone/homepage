@@ -293,20 +293,12 @@ svg {
     gap: 10px;
 }
 
-/*#footer > img {*/
-/*    width: 700px;*/
-/*}*/
-
-/*todo: fix footer font-size and figure out proper image sizing(srcset etc.)*/
 @media (630px < width <= 1100px) {
 
     #footer{
         padding: 20px;
     }
 
-    /*#footer > img {*/
-    /*    width: 300px;*/
-    /*}*/
 
     #footer-left {
         gap: 15px;
@@ -353,6 +345,8 @@ svg {
         width: 40px;
     }
 
+    /* too lazy to do html to figure out best image size, so instead just make it adjust when its small screen */
+    /* too niche to happen often */
     #footer > img {
         position: relative;
         bottom: 0;

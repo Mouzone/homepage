@@ -15,8 +15,8 @@
                             id="first-image"
                             alt="profile picture"
                             srcset="
-                                images/first-img-small.jpg 1100w,
-                                images/first-img-med.jpg 1500w"
+                                images/first-img-small.webp 1100w,
+                                images/first-img-med.webp 1500w"
                             sizes="1000px"
                     >
                     <h1 id="name"> Bob Saget </h1>
@@ -163,7 +163,14 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg" />
                 </div>
             </div>
-            <img src="images/second-img-med.jpg" alt="">
+            <img
+                alt=""
+                srcset="
+                    images/second-img-large.webp 630w,
+                    images/second-img-small.webp 1000w,
+                    images/second-img-large.webp 1500w"
+                sizes="(max-width: 600px) 300px, (max-width: 1000px) 700px, 100vw"
+            >
         </div>
     </body>
 </html>
