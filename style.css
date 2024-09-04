@@ -288,7 +288,7 @@ svg {
 }
 
 /*todo: fix footer font-size and figure out proper image sizing(srcset etc.)*/
-@media (width <= 1100px) {
+@media (630px < width <= 1100px) {
 
     #footer > img {
         width: 200px;
@@ -316,7 +316,35 @@ svg {
 }
 
 @media (width <= 630px) {
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #footer h1 {
+        text-align: center;
+    }
+
+    #footer p {
+        font-size: 25px;
+    }
+
+    #footer .icons {
+        justify-content: center;
+        gap: 30px;
+        margin: 20px 0 20px 0;
+    }
+
+    #footer .icons img {
+        width: 40px;
+    }
+
+    #footer > img {
+        position: relative;
+        bottom: 0;
+        width: calc(100% + 100px);
+        margin: 0 -50px -50px -50px;
+    }
 }
 
 
