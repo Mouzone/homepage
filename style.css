@@ -87,7 +87,7 @@ h1 {
     gap: 15px;
 }
 
-img {
+.icons img {
     width: 30px;
 }
 
@@ -303,9 +303,9 @@ svg {
     gap: 10px;
 }
 
-#footer > img {
-    width: 700px;
-}
+/*#footer > img {*/
+/*    width: 700px;*/
+/*}*/
 
 /*todo: fix footer font-size and figure out proper image sizing(srcset etc.)*/
 @media (630px < width <= 1100px) {
@@ -314,9 +314,9 @@ svg {
         padding: 20px;
     }
 
-    #footer > img {
-        width: 300px;
-    }
+    /*#footer > img {*/
+    /*    width: 300px;*/
+    /*}*/
 
     #footer-left {
         gap: 15px;
