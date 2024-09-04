@@ -114,6 +114,7 @@ img {
     }
 
     #first-image {
+        /* todo: remove this and use srcset function with cropping*/
         width: 300px;
     }
 
@@ -205,6 +206,39 @@ svg {
     padding-bottom: 50px;
 }
 
+@media (width <= 1000px) {
+    p {
+        font-size: 15px;
+    }
+
+    #projects {
+        grid-template-columns: repeat(auto-fit, 250px);
+        grid-gap: 20px;
+    }
+
+    .screenshot {
+        width: 250px;
+        font-size: 30px;
+        height: 200px;
+    }
+
+    .text {
+        width: 250px;
+    }
+
+    .bar {
+        gap: 10px;
+    }
+    .bar h3 {
+        font-size: 20px;
+    }
+}
+
+@media (width <= 500px) {
+
+}
+
+
 /* ----------------------- FOOTER ------------------------*/
 
 #footer {
@@ -240,10 +274,32 @@ svg {
     width: 700px;
 }
 
+/*todo: fix footer font-size and figure out proper image sizing(srcset etc.)*/
 @media (width <= 1000px) {
+
     #footer > img {
-        width: 100px;
+        width: 200px;
     }
+
+    #footer-left {
+        gap: 15px;
+    }
+
+    #footer h1 {
+        font-size: 40px;
+    }
+    #footer p {
+        font-size: 15px;
+    }
+
+    svg {
+        width: 15px;
+    }
+
+    #footer .icons img{
+        width: 25px;
+    }
+
 }
 
 @media (width <= 500px) {
